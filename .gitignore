@@ -67,3 +67,17 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# FreeCAD lock/backup files
+*.FCStd#
+*.FCBak
+*.lock
+
+# Arduino build & temporary files
+build/
+*.hex
+*.elf
+
+# Windows & OS garbage
+Thumbs.db
+.DS_Store
